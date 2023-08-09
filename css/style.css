@@ -1,4 +1,10 @@
 /* Base */
+
+
+
+
+
+
 body {
   line-height: 1.7;
   color: gray;
@@ -1130,3 +1136,40 @@ h1, h2, h3, h4, h5,
     .midlogoImage{
       border-radius: 10px;
     }
+
+
+
+  .step {
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 40px;
+}
+
+.step .number {
+  background: linear-gradient(-45deg, #1391a5, #274685);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.step p:last-child {
+  margin-bottom: 0px;
+}
+
+
+
+.setupHeader {
+  font-weight: bold;
+}
+
+.socialLinks {
+ 
+  cursor: pointer;
+}
+
+.socialLinks:hover{
+  text-decoration: underline;
+}
