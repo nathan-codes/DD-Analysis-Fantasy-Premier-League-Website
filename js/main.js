@@ -253,7 +253,7 @@ jQuery(document).ready(function($) {
 
 	var siteCountDown = function() {
 
-		$('#date-countdown, #date-countdown2').countdown('2023/08/12', function(event) {
+		$('#date-countdown, #date-countdown2').countdown('2023/08/31', function(event) {
 		  var $this = $(this).html(event.strftime(''
 		    + '<span class="countdown-block m-0"><span class="label">%d</span> days </span>'
 		    + '<span class="countdown-block m-0"><span class="label">%H</span> hr </span>'
